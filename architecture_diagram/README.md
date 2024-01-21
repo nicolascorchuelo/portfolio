@@ -26,3 +26,8 @@ Databricks.
 Snowflake.
 
 ![Snowflake](https://github.com/nicolascorchuelo/portfolio/assets/90802118/3bc9a49a-c622-4008-a0ef-430fa9733e7a)
+
+
+Kafka architecture.
+
+![kafka](https://github.com/nicolascorchuelo/portfolio/assets/90802118/7b8e1be0-e7e6-4d14-a439-c2ee85462be2)
