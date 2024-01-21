@@ -14,7 +14,8 @@ Datalake.
 Lakehouse.
 
 
-![Lakehouse](https://github.com/nicolascorchuelo/portfolio/assets/90802118/2745af8f-ae0a-4d90-aece-709c430876a4)
+![Lakehouse](https://github.com/nicolascorchuelo/portfolio/assets/90802118/33a395ce-dee6-4de7-9a50-e93e2a54040d)
+
 
 Delta lake.
 
