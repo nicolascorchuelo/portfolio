@@ -7,11 +7,11 @@ Data warehouse.
 
 ![data warehouse](https://github.com/nicolascorchuelo/portfolio/assets/90802118/16c3c471-bcee-4617-8a5b-b91ffff65159)
 
-Data lake.
+Datalake.
 
 ![data lake](https://github.com/nicolascorchuelo/portfolio/assets/90802118/1dc6a552-5034-4b63-bc84-d952d618d1bb)
 
-Lake house.
+Lakehouse.
 
 
 ![Lakehouse](https://github.com/nicolascorchuelo/portfolio/assets/90802118/2745af8f-ae0a-4d90-aece-709c430876a4)
