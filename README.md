@@ -26,7 +26,8 @@
 ---
   * [RDBMS Relational Database](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
   * [Data warehouse](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
-    *   Database specialist, specializing in the implementation of the Kimball dimensional model, including Type 1 and Type 2 dimensions, as well as snowflake and factless fact tables. Experienced in implementing change data capture (CDC) processes to efficiently track and manage data updates and modifications.
+    
+    *   Database specialist, specializing in the implementation of the **Kimball dimensional model**, including Type 1 and Type 2 dimensions, as well as a **snowflake dimension** and factless fact tables. Experienced in implementing **change data capture (CDC) processes** to efficiently track and manage data updates and modifications.
   * [Datalake](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
   * [Lakehouse](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
   * [Databricks](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
