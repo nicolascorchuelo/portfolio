@@ -64,5 +64,6 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 * ##### SSIS (Integration Services)
 * ##### ADF (Azure Data Facture)
 * ##### Power BI
+   * DAX
 * ##### Microsoft Purview
 
