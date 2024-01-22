@@ -14,7 +14,7 @@
   <dt>Azure Blob Storage:</dt>
   <dd>A massively scalable object storage solution for unstructured data. It is commonly used for storing and retrieving large amounts of data, including backups, archives, and multimedia content.</dd>
   <dt>Azure Logic Apps:</dt>
-  <dd>is another serverless computing service provided by Microsoft Azure, and it is designed for building and automating workflows that integrate with various services and systems. Azure Logic Apps allows you to create workflows visually using a drag-and-drop interface, making it accessible to both developers and non-developers.</dd>
+  <dd>Is a serverless computing service provided by Microsoft Azure, and it is designed for building and automating workflows that integrate with various services and systems. Azure Logic Apps allows you to create workflows visually using a drag-and-drop interface, making it accessible to both developers and non-developers.</dd>
   <dt>Azure functions:</dt>
   <dd>Is a serverless computing service provided by Microsoft Azure. Serverless computing allows you to run your code without provisioning or managing servers. With Azure Functions, you can write, deploy, and run event-triggered functions in a variety of programming languages, including C#, Java, JavaScript, Python, and PowerShell.</dd>
 </dl>
