@@ -1,4 +1,4 @@
-Amazon S3 (Simple Storage Service): A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.
+#### Amazon S3 (Simple Storage Service): A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.
 
 AWS Glue: A fully managed extract, transform, and load (ETL) service that makes it easy to move data between data stores. It automatically generates ETL code to transform data and can work with a variety of data sources.
 
@@ -17,3 +17,8 @@ AWS Glue DataBrew: A visual data preparation tool that enables cleaning, normali
 Amazon DynamoDB: A fully managed NoSQL database service that provides fast and predictable performance for applications that require seamless and low-latency data access.
 
 Amazon Athena: A serverless query service that allows you to analyze data directly in Amazon S3 using standard SQL. It is particularly useful for ad-hoc analysis and querying large datasets.
+
+
+<dt>Amazon S3 (Simple Storage Service):</dt>
+  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+</dl>
