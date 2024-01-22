@@ -1,4 +1,9 @@
 # Nicolas Corchuelo
-I am a Data Engineer, I develop and migrate big data solutions in the cloud, using Microsoft Azure, AWS, and GCP platforms. I leverage my knowledge and skills in bash scripting, python, and Scala, as well as in relational and non-relational databases, to create data lake architectures and pipelines. I also lead data solutions teams and apply agile methodologies to deliver high-quality results.
+The following section provides information related to my experience in data engineering, including the technologies and methodologies I have used. In the below repositories, the following topics are illustrated:
 
-I have experience as a Data Engineer, where I developed and redesigned data mart information for the financial sector, using SQL Server Integration Services (SSIS), Python, and Power BI. I achieved the highest level of analyst in the GTI department and automated several ETL processes to improve data quality and efficiency. I hold a specialization in project management in business intelligence and an industrial engineering degree, as well as multiple certifications in Scrum, SQL, and Excel. I am passionate about data engineering and analytics, and I am always eager to learn new technologies and methodologies to enhance my professional growth.
+    **Data architecture diagram**
+    **Algorithm**
+    **CI/CD**
+    **Cloud Processing**
+    **Data governance**
+    **Programming languages**
