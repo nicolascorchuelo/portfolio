@@ -7,8 +7,8 @@ The following section provides information related to my experience in data engi
    
 * **Cloud Processing**
 
-* **Data architecture diagram**
+* **Data Architecture Diagram**
   
-* **Data governance**
+* **Data Governance**
   
 * **Languages Programming**
