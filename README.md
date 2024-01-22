@@ -12,10 +12,9 @@
 * **Cloud Processing**
 ---
 
-
-* **Data Architecture Diagram**
+#### Data Architecture Diagram**
 ---
-  * #### [RDBMS Relational Database.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/README.md)
+  * [RDBMS Relational Database.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/README.md)
 
   
 * **Data Governance**
