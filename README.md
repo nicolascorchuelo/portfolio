@@ -4,6 +4,7 @@
 #### Algorithm
 ---
 * Search and sort algorithms
+* CAP Theorem for databases
    
 #### CI/CD
 ---
