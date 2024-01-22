@@ -51,7 +51,7 @@
 
    * Best practices
    * Python for data
-   * Python data Application (Airflow, Spark..etc)
+   * Python for data application (Airflow, Spark..etc)
   
 * [Apache Spark with Scala](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/scala)
 
