@@ -1,7 +1,7 @@
 # My data journey
 💫 The following section provides information related to my experience in data engineering, including the technologies and methodologies I have used. In the below repositories, the following topics are illustrated:
 
-#### Algorithm
+#### Algorithm & Theorems
 ---
 * Search and sort algorithms
 * CAP Theorem for databases
@@ -35,12 +35,16 @@
   * [Snowflake](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
   * [Kafka architecture](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
 
-#### [Data Governance](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+#### [Data Governance](https://github.com/nicolascorchuelo/portfolio/tree/main/data_governance)
 ---
-
+* Policy Management
+* Data Quality
+* Master Data Management
+* Metadata Management
+* Data Security & Privacy
   
 #### Languages Programming
 ---
-* [SQL](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python)
+* [SQL](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/sql)
 * [Python](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python)
 * [Scala](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/scala)
