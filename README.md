@@ -7,6 +7,14 @@
    
 #### CI/CD
 ---
+* Docker
+* Terraform
+* Azure DevOps
+* Jenkins
+* Git Actions
+* Kubernetes
+* Prometheus
+* Grafana
 
    
 #### Cloud Processing
