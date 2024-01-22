@@ -41,5 +41,6 @@
   
 #### Languages Programming
 ---
+* [SQL](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python)
 * [Python](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python)
 * [Scala](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/scala)
