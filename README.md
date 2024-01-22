@@ -24,13 +24,13 @@
 
 #### Data Architecture Diagram
 ---
-  * [RDBMS Relational Database.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
-  * [Data warehouse.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
-  * [Datalake.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
-  * [Lakehouse.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
-  * [Databricks.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
-  * [Snowflake.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
-  * [Kafka architecture.](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+  * [RDBMS Relational Database](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+  * [Data warehouse](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+  * [Datalake](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+  * [Lakehouse](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+  * [Databricks](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+  * [Snowflake](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
+  * [Kafka architecture](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
 
 #### Data Governance
 ---
@@ -38,3 +38,5 @@
   
 #### Languages Programming
 ---
+* [Python](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python)
+* [Scala](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/scala)
