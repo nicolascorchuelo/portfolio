@@ -1,4 +1,19 @@
-#### Amazon S3 (Simple Storage Service): A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.
+<dl>
+  <dt>Amazon S3 (Simple Storage Service):</dt>
+  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+  <dt>AWS Glue:</dt>
+  <dd>A fully managed extract, transform, and load (ETL) service that makes it easy to move data between data stores. It automatically generates ETL code to transform data and can work with a variety of data sources.</dd>
+  <dt>Amazon S3 (Simple Storage Service):</dt>
+  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+  <dt>Amazon S3 (Simple Storage Service):</dt>
+  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+  <dt>Amazon S3 (Simple Storage Service):</dt>
+  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+  <dt>Amazon S3 (Simple Storage Service):</dt>
+  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+  <dt>Amazon S3 (Simple Storage Service):</dt>
+  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+</dl>
 
 AWS Glue: A fully managed extract, transform, and load (ETL) service that makes it easy to move data between data stores. It automatically generates ETL code to transform data and can work with a variety of data sources.
 
