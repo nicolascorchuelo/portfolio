@@ -50,7 +50,7 @@
 * [Python](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python)
 
    * Best practices
-   * Python data
+   * Python for data
    * Python data Application (Airflow, Spark..etc)
   
 * [Apache Spark with Scala](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/scala)
