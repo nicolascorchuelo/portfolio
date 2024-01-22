@@ -1,14 +1,14 @@
 # My data journey
 The following section provides information related to my experience in data engineering, including the technologies and methodologies I have used. In the below repositories, the following topics are illustrated:
 
-* **Data architecture diagram**
-
 * **Algorithm**
    
 * **CI/CD**
    
 * **Cloud Processing**
-   
+
+* **Data architecture diagram**
+  
 * **Data governance**
-   
-* **Programming languages**
+  
+* **Languages Programming**
