@@ -35,7 +35,7 @@
   * [Snowflake](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
   * [Kafka architecture](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
 
-#### Data Governance
+#### [Data Governance](https://github.com/nicolascorchuelo/portfolio/blob/main/data_architecture_diagram/)
 ---
 
   
