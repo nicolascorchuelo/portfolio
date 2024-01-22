@@ -18,7 +18,10 @@ Amazon DynamoDB: A fully managed NoSQL database service that provides fast and p
 
 Amazon Athena: A serverless query service that allows you to analyze data directly in Amazon S3 using standard SQL. It is particularly useful for ad-hoc analysis and querying large datasets.
 
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
 
-<dt>Amazon S3 (Simple Storage Service):</dt>
-  <dd>A scalable object storage service that can be used to store and retrieve any amount of data. It is commonly used as a data lake for storing large volumes of structured and unstructured data.</dd>
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
