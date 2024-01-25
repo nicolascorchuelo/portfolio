@@ -71,6 +71,10 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 ---
 ##### [Load Large CSV File Using Python to Postgres](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python/python_for_data/etl_file_to_db)
 
+###### Source (3.08 GB - The dataset has 4496055 rows and 18 columns)
+
+[https://www.kaggle.com/datasets/anoopjohny/consumer-complaint-database/data](https://www.kaggle.com/datasets/anoopjohny/consumer-complaint-database/data)
+
 ###### Postgres docker
 
 ```python
@@ -82,3 +86,5 @@ docker run -d --name services_db -p 8009:5432 -e POSTGRES_PASSWORD=1234 -v /User
 python3 -m venv etl_env
 source etl_env/bin/activate
 ```
+###### Outcome
+Insert time: 124.409982919693 seconds
