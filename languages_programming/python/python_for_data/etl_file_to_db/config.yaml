@@ -1,0 +1,56 @@
+target:
+  host: "localhost"
+  database: "postgres"
+  user: "postgres"
+  password: "1234"
+  port: "8009"
+  autocommit: "True"
+
+source:
+  path: "/source/complaints.csv"
+
+query:
+  provisionig_table: "
+  CREATE TABLE IF NOT EXISTS complaint (
+  date_received varchar(5000),
+  product varchar(5000),
+  sub_product varchar(5000),
+  issue varchar(5000),
+  sub_issue varchar(5000),
+  consumer_complaint_narrative varchar(5000),
+  company_public_response varchar(5000),
+  company varchar(5000),
+  state varchar(5000),
+  zip_code varchar(5000),
+  tags varchar(5000),
+  consumer_consent_provided varchar(5000),
+  submitted_via varchar(5000),
+  date_sent_to_company varchar(5000),
+  company_response_to_consumer varchar(5000),
+  timely_response varchar(5000),
+  consumer_disputed varchar(5000),
+  complaint_id varchar(5000),
+  execution_date timestamp
+  )
+  "
+  insert_table: "COPY complaint (
+                    date_received,
+                    product,
+                    sub_product,
+                    issue,
+                    sub_issue,
+                    consumer_complaint_narrative,
+                    company_public_response,
+                    company,
+                    state,
+                    zip_code,
+                    tags,
+                    consumer_consent_provided,
+                    submitted_via,
+                    date_sent_to_company,
+                    company_response_to_consumer,
+                    timely_response,
+                    consumer_disputed,
+                    complaint_id,
+                    execution_date
+                ) FROM STDIN WITH CSV"
