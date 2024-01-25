@@ -80,4 +80,5 @@ docker run -d --name services_db -p 8009:5432 -e POSTGRES_PASSWORD=1234 -v /User
 
 ```python
 python3 -m venv etl_env
+source etl_env/bin/activate
 ```
