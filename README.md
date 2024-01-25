@@ -77,3 +77,7 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 docker run -d --name services_db -p 8009:5432 -e POSTGRES_PASSWORD=1234 -v /Users/nicolascorchuelo/data/db_pg:/var/lib/postgres/data postgres
 ```
 ###### Environment Python
+
+```python
+python3 -m venv etl_env
+```
