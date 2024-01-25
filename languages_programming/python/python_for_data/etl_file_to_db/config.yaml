@@ -34,23 +34,23 @@ query:
   )
   "
   insert_table: "COPY complaint (
-                    date_received,
-                    product,
-                    sub_product,
-                    issue,
-                    sub_issue,
-                    consumer_complaint_narrative,
-                    company_public_response,
-                    company,
-                    state,
-                    zip_code,
-                    tags,
-                    consumer_consent_provided,
-                    submitted_via,
-                    date_sent_to_company,
-                    company_response_to_consumer,
-                    timely_response,
-                    consumer_disputed,
-                    complaint_id,
-                    execution_date
-                ) FROM STDIN WITH CSV"
+  date_received,
+  product,
+  sub_product,
+  issue,
+  sub_issue,
+  consumer_complaint_narrative,
+  company_public_response,
+  company,
+  state,
+  zip_code,
+  tags,
+  consumer_consent_provided,
+  submitted_via,
+  date_sent_to_company,
+  company_response_to_consumer,
+  timely_response,
+  consumer_disputed,
+  complaint_id,
+  execution_date
+  ) FROM STDIN WITH CSV"
