@@ -71,6 +71,9 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 ---
 ##### [Load Large CSV File Using Python to Postgres](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python/python_for_data/etl_file_to_db)
 
+###### Postgres docker
+
 ```python
 docker run -d --name services_db -p 8009:5432 -e POSTGRES_PASSWORD=1234 -v /Users/nicolascorchuelo/data/db_pg:/var/lib/postgres/data postgres
 ```
+###### Environment Python
