@@ -69,4 +69,4 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 
 ## Projects
 ---
-##### Large CSV File Using Python to postgres
+##### [Large CSV File Using Python to Postgres](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python/python_for_data/etl_file_to_db)
