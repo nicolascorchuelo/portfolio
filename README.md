@@ -70,3 +70,9 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 ## Projects
 ---
 ##### [Load Large CSV File Using Python to Postgres](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python/python_for_data/etl_file_to_db)
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
