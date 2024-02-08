@@ -70,7 +70,7 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 ## Projects
 ---
 
-![png-transparent-docker-hd-logo-thumbnail](https://github.com/nicolascorchuelo/portfolio/assets/90802118/ee248179-a3ee-4c2d-97e8-0d9455eda466)
+![Untitled Diagram drawio](https://github.com/nicolascorchuelo/portfolio/assets/90802118/b43f7dee-3096-4272-840d-000cbc06d2f6)
 
 ##### [Load Large CSV File Using Python to Postgres](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python/python_for_data/etl_file_to_db)
 
