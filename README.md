@@ -69,6 +69,9 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 
 ## Projects
 ---
+
+![png-transparent-docker-hd-logo-thumbnail](https://github.com/nicolascorchuelo/portfolio/assets/90802118/ee248179-a3ee-4c2d-97e8-0d9455eda466)
+
 ##### [Load Large CSV File Using Python to Postgres](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python/python_for_data/etl_file_to_db)
 
 ###### Source (3.08 GB - The dataset has 4496055 rows and 18 columns)
