@@ -4,6 +4,9 @@
 #### Algorithm / Theorems & Topics
 ---
 * Search and sort algorithms
+* Design patterns
+* Architectural patterns
+* Data structures
 * CAP Theorem for database
 * Database Optimization & Performance
    
