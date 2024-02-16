@@ -1,0 +1,83 @@
+{
+  "swagger":"2.0",
+  "info":{
+     "title":"Coding Challenge",
+     "version":"1.0.0"
+  },
+  "paths":{
+     "/":{
+        "get":{
+           "description":"Returns message showing app is up",
+           "produces":[
+              "application/json"
+           ],
+           "parameters":[
+              {
+                 "name":"id",
+                 "in":"query",
+                 "description":"JSON data for the api",
+                 "required":true,
+                 "type":"integer",
+                 "schema":{
+                    "$ref":"#/definitions/id"
+                 }
+              }
+           ],
+           "responses":{
+              "200":{
+                 "description":"Successful operation"
+              }
+           }
+        }
+     },
+     "/load":{
+        "post":{
+           "description":"Grants access to an user",
+           "consumes":[
+              "application/json"
+           ],
+           "produces":[
+              "application/json"
+           ],
+           "parameters":[
+              {
+                 "name":"access data",
+                 "in":"body",
+                 "description":"JSON data for the api",
+                 "required":true,
+                 "schema":{
+                    "$ref":"#/definitions/AccessData"
+                 }
+              }
+           ],
+           "responses":{
+              "200":{
+                 "description":"User granted access"
+              },
+              "400":{
+                 "description":"Invalid request data"
+              }
+           }
+        }
+     }
+  },
+  "definitions":{
+     "AccessData":{
+        "type":"object",
+        "properties":{
+           "file":{
+              "type":"string"
+           },
+           "table":{
+              "type":"string"
+           },
+           "delete_data":{
+              "type":"string"
+           }
+        }
+     },
+     "id":{
+        "type":"integer"
+     }
+  }
+}
