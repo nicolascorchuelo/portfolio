@@ -64,3 +64,5 @@ GROUP  BY de.id,
           de.department
 ORDER  BY Count(0) DESC 
 ```
+![image](https://github.com/nicolascorchuelo/portfolio/assets/90802118/34c73c84-b073-4529-b61c-de56ed9c4e2f)
+
