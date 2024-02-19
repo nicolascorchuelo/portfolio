@@ -2,6 +2,8 @@
 
 ![9Untitled Diagram drawio](https://github.com/nicolascorchuelo/portfolio/assets/90802118/1928848b-b503-40dd-bed8-b6d193de0da4)
 
+## 1. API
+
 ### Load Large CSV File Using Flask (Python) to Postgres
 
 ### Source (3.08 GB - The dataset has 4496055 rows and 18 columns)
@@ -21,8 +23,6 @@ source etl_env/bin/activate
 python -m pip install --upgrade pip
 deactivate
 ```
-### Outcome
-Insert time: 124.409982919693 seconds
 
 ## Explanation
 ---
@@ -32,5 +32,20 @@ Insert time: 124.409982919693 seconds
 * **etl_api_call.py:** 
 * **flask_env:** 
 * **prueba.py:** 
-* **source:** 
 * **static/swagger.json:** 
+
+## Database questions
+
+```sql
+SELECT de.department,j.job,
+    SUM(CASE WHEN EXTRACT(quarter FROM he.datetime) = 1 THEN 1 ELSE 0 END) AS Q1,
+    SUM(CASE WHEN EXTRACT(quarter FROM he.datetime) = 2 THEN 1 ELSE 0 END) AS Q2,
+    SUM(CASE WHEN EXTRACT(quarter FROM he.datetime) = 3 THEN 1 ELSE 0 END) AS Q3,
+    SUM(CASE WHEN EXTRACT(quarter FROM he.datetime) = 4 THEN 1 ELSE 0 END) AS Q4
+FROM 
+    hired_employees as he inner join jobs as j on he.job_id = j.id
+    inner join departments de on  department_id = de.id
+where EXTRACT(YEAR FROM datetime) = 2021
+GROUP BY j.job,de.department
+order by de.department asc, j.job asc
+```
