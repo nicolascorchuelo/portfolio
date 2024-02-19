@@ -5,7 +5,7 @@
      "version":"1.0.0"
   },
   "paths":{
-     "/":{
+     "/consult":{
         "get":{
            "description":"Returns message showing app is up",
            "produces":[
@@ -21,7 +21,17 @@
                  "schema":{
                     "$ref":"#/definitions/id"
                  }
-              }
+              },
+              {
+               "name":"table",
+               "in":"query",
+               "description":"JSON data for the api",
+               "required":true,
+               "type":"string",
+               "schema":{
+                  "$ref":"#/definitions/table"
+               }
+            }
            ],
            "responses":{
               "200":{
@@ -46,7 +56,7 @@
                  "description":"JSON data for the api",
                  "required":true,
                  "schema":{
-                    "$ref":"#/definitions/AccessData"
+                    "$ref":"#/definitions/Load"
                  }
               }
            ],
@@ -62,7 +72,7 @@
      }
   },
   "definitions":{
-     "AccessData":{
+     "Load":{
         "type":"object",
         "properties":{
            "file":{
@@ -78,6 +88,9 @@
      },
      "id":{
         "type":"integer"
-     }
+     },
+     "table":{
+      "type":"string"
+   }
   }
 }

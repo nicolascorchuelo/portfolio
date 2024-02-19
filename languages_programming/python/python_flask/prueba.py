@@ -1,19 +1,10 @@
-import pandas as pd
-from sqlalchemy import create_engine
-import os
-from etl import etl_data_obj
+import connections as conne
 import pandas as pd
 
-# Supongamos que tenemos un DataFrame df
-data = {'A': [1, 2, 3, 4, 5],
-        'B': [6, 7, 8, 9, 10],
-        'C': [11, 12, 13, 14, 15]}
+conn = conne.database()
 
-df = pd.DataFrame(data)
-print(df)
+pd.read_sql_query('select empno,ename,sal,deptno from emp',conn.create_engine())
 
-# Filtrar el DataFrame donde el valor de la primera columna ('A') sea igual a 3
-df_result = pd.DataFrame(df.iloc[2])
+conn.execute('TRUNCATE TABLE emp')
 
-print(df.loc[df.index == 2])
-#print(df_result.pivot_table())
+columns = conn.metadata('jobs')
