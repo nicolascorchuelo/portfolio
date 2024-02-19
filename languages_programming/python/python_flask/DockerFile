@@ -1,0 +1,20 @@
+FROM python:3.11.5
+
+USER root
+RUN pip install --upgrade pip
+
+WORKDIR /fast-app
+
+COPY requirements.txt .
+ADD etl_api_call.py .
+ADD connections.py .
+ADD etl.py .
+ADD static/swagger.json ./static/swagger.json
+ADD source/source_sql/* .source/source_sql/
+ADD source/*.csv ./source/
+
+RUN pip install -r requirements.txt
+
+EXPOSE 8009
+
+CMD [ "python", "./etl_api_call.py"]
