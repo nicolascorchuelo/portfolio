@@ -10,8 +10,6 @@
 * hired_employees.csv
 * jobs.csv
 
-### Source (3.08 GB - The dataset has 4496055 rows and 18 columns)
-
 ### Postgres docker
 
 * Change the PATH as appropriate
