@@ -74,7 +74,6 @@ https://public.tableau.com/app/profile/nicolas.corchuelo
 ---
 ![Untitled Diagram drawio](https://github.com/nicolascorchuelo/portfolio/assets/90802118/58e8a255-6ccc-476e-a0ab-f08230487b72)
 
-
 ##### [Load Large CSV File Using Python to Postgres](https://github.com/nicolascorchuelo/portfolio/tree/main/languages_programming/python/python_for_data/etl_file_to_db)
 
 ###### Source (3.08 GB - The dataset has 4496055 rows and 18 columns)
