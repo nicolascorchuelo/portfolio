@@ -51,3 +51,16 @@ order by de.department asc, j.job asc
 ```
 
 ![image](https://github.com/nicolascorchuelo/portfolio/assets/90802118/2a17f5ca-8c2c-4e82-855d-82a4b56ee69e)
+
+```sql
+SELECT de.id,
+       de.department,
+       Count(0) hired
+FROM   hired_employees he
+       INNER JOIN departments de
+               ON he.department_id = de.id
+WHERE  Extract(year FROM datetime) = 2021
+GROUP  BY de.id,
+          de.department
+ORDER  BY Count(0) DESC 
+```
