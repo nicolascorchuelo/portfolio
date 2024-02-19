@@ -36,6 +36,8 @@ deactivate
 
 ## Database questions
 
+![image](https://github.com/nicolascorchuelo/portfolio/assets/90802118/2a17f5ca-8c2c-4e82-855d-82a4b56ee69e)
+
 ```sql
 SELECT de.department,j.job,
     SUM(CASE WHEN EXTRACT(quarter FROM he.datetime) = 1 THEN 1 ELSE 0 END) AS Q1,
