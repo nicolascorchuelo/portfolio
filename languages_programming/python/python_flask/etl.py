@@ -3,7 +3,8 @@ import os
 from io import StringIO
 import connections as conne
 
-local_path = os.getcwd()
+local_path = os.path.abspath(__file__)
+local_path = os.path.dirname(local_path)
 path_file = local_path + '/source/'
 provisioning_db = local_path + '/source/source_sql/'
 conn = conne.database()

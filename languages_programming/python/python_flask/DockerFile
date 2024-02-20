@@ -2,6 +2,8 @@ FROM python:3.11.5
 
 USER root
 RUN pip install --upgrade pip
+RUN apt-get update && \
+    apt-get install net-tools
 
 WORKDIR /fast-app
 
@@ -14,7 +16,5 @@ ADD source/source_sql/* .source/source_sql/
 ADD source/*.csv ./source/
 
 RUN pip install -r requirements.txt
-
-EXPOSE 8009
 
 CMD [ "python", "./etl_api_call.py"]
