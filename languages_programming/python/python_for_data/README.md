@@ -1,3 +1,5 @@
+## Data frame Pandas
+
 ### Creating DataFrames:
 
 * Create an empty DataFrame: df = pd.DataFrame()
@@ -60,3 +62,10 @@
 * Export to CSV: df.to_csv('file.csv', index=False)
 * Export to Excel: df.to_excel('file.xlsx', index=False)
 * Export to SQL database: df.to_sql('table_name', connection)
+
+### Inner join
+
+inner_join_df = pd.merge(df1, df2, how='inner', on='key_column')
+
+left_join_df = pd.merge(df1, df2, how='left', on='key_column')
+
