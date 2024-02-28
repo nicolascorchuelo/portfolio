@@ -65,7 +65,13 @@
 
 ### Inner join
 
+```python
 inner_join_df = pd.merge(df1, df2, how='inner', on='key_column')
+```
+### Left join
 
+```python
 left_join_df = pd.merge(df1, df2, how='left', on='key_column')
+```
+
 
