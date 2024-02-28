@@ -9,14 +9,14 @@
 * Data structures
 
    * Arrangements
-Strings
-Chained Lists
-Hash Tables and Hash Sets
-Stacks
-Queues
-Trees
-Networks
-Tries
+   * Strings
+   * Chained Lists
+   * Hash Tables and Hash Sets
+   * Stacks
+   * Queues
+   * Trees
+   * Networks
+   * Tries
 
 * CAP Theorem for database
 * Database Optimization & Performance
