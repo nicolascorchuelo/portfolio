@@ -3,6 +3,17 @@
 
 #### Algorithm / Theorems & Topics
 ---
+
+* Algorithm
+
+  * Big 0 notation
+  * Sorting algorithms
+  * Search algorithms
+  * DFS and BFS
+  * Bit manipulation
+  * Recursion
+  * Dynamic programming
+    
 * Search and sort algorithms
 * Design patterns
 * Architectural patterns
