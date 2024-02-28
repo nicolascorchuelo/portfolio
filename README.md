@@ -9,6 +9,9 @@
 * Data structures
 * CAP Theorem for database
 * Database Optimization & Performance
+
+![Untitled Diagram drawio](https://github.com/nicolascorchuelo/portfolio/assets/90802118/7768c278-3a6c-4d55-a1a8-54de6b03071b)
+
    
 #### CI/CD
 ---
