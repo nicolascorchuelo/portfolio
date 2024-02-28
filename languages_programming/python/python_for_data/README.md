@@ -1,9 +1,9 @@
 ### Creating DataFrames:
 
-Create an empty DataFrame: df = pd.DataFrame()
-Create DataFrame from a dictionary: df = pd.DataFrame({'col1': [val1, val2, ...], 'col2': [val1, val2, ...]})
-Create DataFrame from a list of lists: df = pd.DataFrame([[val1, val2], [val3, val4], ...], columns=['col1', 'col2'])
-Read from various data sources like CSV, Excel, SQL databases, etc.: df = pd.read_csv('file.csv')
+* Create an empty DataFrame: df = pd.DataFrame()
+* Create DataFrame from a dictionary: df = pd.DataFrame({'col1': [val1, val2, ...], 'col2': [val1, val2, ...]})
+* Create DataFrame from a list of lists: df = pd.DataFrame([[val1, val2], [val3, val4], ...], columns=['col1', 'col2'])
+* Read from various data sources like CSV, Excel, SQL databases, etc.: df = pd.read_csv('file.csv')
 
 ### Viewing Data:
 
