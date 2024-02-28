@@ -6,7 +6,9 @@
 * Search and sort algorithms
 * Design patterns
 * Architectural patterns
-** Arrangements
+* Data structures
+
+   * Arrangements
 Strings
 Chained Lists
 Hash Tables and Hash Sets
@@ -14,8 +16,8 @@ Stacks
 Queues
 Trees
 Networks
-Tries   
-* Data structures
+Tries
+
 * CAP Theorem for database
 * Database Optimization & Performance
 
