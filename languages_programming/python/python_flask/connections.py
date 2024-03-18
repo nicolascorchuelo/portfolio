@@ -4,7 +4,7 @@ class database:
 
     def __init__(self) -> None:
 
-        self.host = 'localhost'
+        self.host = '172.26.0.3'
         self.user = 'postgres'
         self.database = 'postgres'
         self.password = '1234'
